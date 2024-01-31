@@ -24,7 +24,7 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
 
-       - name: Standard Checkout
+      - name: Standard Checkout
         uses: actions/checkout@v2
 
       # Compile notre application
